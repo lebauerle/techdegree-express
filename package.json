@@ -1,0 +1,15 @@
+{
+  "name": "techdegree-6-static-express",
+  "version": "1.0.0",
+  "description": "static express app to display a portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
