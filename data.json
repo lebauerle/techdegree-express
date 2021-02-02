@@ -1,0 +1,44 @@
+{
+    "projects": [
+       {"id":0,
+       "project_name":"Random quote generator",
+       "description":"By clicking the button, one of eight quotes will be displayed and the background will change. A timer will do the same thing every 10 sec without user interaction. The background colors are randomly generated.",
+       "technologies":["HTML","CSS","Javascript"],
+       "live_link":"https://lebauerle.github.io/techdegree-project1-randomquotejs/",
+       "github_link":"https://github.com/lebauerle/techdegree-project1-randomquotejs",
+       "image_urls":["/static/images/widescreen_project_1.png", "/static/images/thumbnail_project_1.png"]
+       },
+       {"id":1,
+        "project_name":"Data-Pagination-and-Filtering",
+        "description":"A pagination app, that displays student´s cards dynamicly from a jsobject. The HTML elements are created with JavaScript. The data used in this project is from randomuser.me.",
+        "technologies":["HTML","CSS","Javascript"],
+        "live_link":"https://lebauerle.github.io/techdegree-project2-Data-Pagination-and-Filtering/",
+        "github_link":"https://github.com/lebauerle/techdegree-project2-Data-Pagination-and-Filtering",
+        "image_urls":["/images/widescreen_project_2.png", "/images/thumbnail_project_2.png"]
+       },
+       {"id":2,
+           "project_name":"Loginform",
+           "description":"A simple, interactive loginform with input validation for a fictional conference. The validation does not rely on the build in HTML validation. JavaScript is used additionally.",
+           "technologies":["HTML","CSS","Javascript"],
+           "live_link":"https://lebauerle.github.io/techdegree-project3-loginform/",
+           "github_link":"https://github.com/lebauerle/techdegree-project3-loginform",
+           "image_urls":["/images/widescreen_project_3.png", "/images/thumbnail_project_3.png"]
+       },
+       {"id":3,
+           "project_name":"Gameapp",
+           "description":"A phrase hunter game: guess the right letters from random phrases! The HTML elements are created dynamlicly with Javascript. After you win/lose the game, you can start again.",
+           "technologies":["HTML","CSS","Javascript+OOP"],
+           "live_link":"https://lebauerle.github.io/techdegree-project4-gameapp/",
+           "github_link":"https://github.com/lebauerle/techdegree-project4-gameapp",
+           "image_urls":["/images/widescreen_project_4.png", "/images/thumbnail_project_4.png"]
+       },
+       {"id":4,
+           "project_name":"Public API app",
+           "description":"The project fetches data from the randomuser.me API and creates dynamicly a gallary with 12 random users. Clicking a user card will open a more detailed user card.",
+           "technologies":["HTML","CSS","Javascript+API"],
+           "live_link":"https://lebauerle.github.io/techdegree-project5-publicapi/",
+           "github_link":"https://github.com/lebauerle/techdegree-project5-publicapi",
+           "image_urls":["/images/widescreen_project_5", "/images/thumbnail_project_5.png"]
+       }
+    ]
+}

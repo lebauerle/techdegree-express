@@ -1,28 +1,21 @@
 extends layout.pug
 
-block content
+block content 
+  article.grid-container.portfolio-intro
+    div
 
-  article.portfolio-intro
+      h1 Oh Hello there, welcome to my portfolio!
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+      p.lead.text-light
+        | Go check out my portfolio. Most of these projects are from the Team Treehouse Techdegree, but soon my own projects will be added!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
 
-
-  article.portfolio-project-thumbs
-    .projects-box.box.grid
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
+      each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
-
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`./static/images/thumbnail_project_${project.id + 1}.png`)
+            h5= project.project_name
+      
